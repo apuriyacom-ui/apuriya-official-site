@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://apuriyacom-ui.github.io/apuriya-official-site/sitemap.xml
