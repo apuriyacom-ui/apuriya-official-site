@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>オリジナルLINEスタンプ制作｜制作費0円・スタンプ購入190円｜アプリ屋</title>
+<meta name="description" content="写真やアイデアから、あなただけのオリジナルLINEスタンプをAIで制作。制作依頼0円、完成案の修正は3回まで無料。販売開始後、LINEスタンプショップで190円でご購入いただくサービスです。">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://apuriyacom-ui.github.io/apuriya-official-site/line-stamps.html">
+<link rel="stylesheet" href="assets/style.css">
+<style>
+:root{--stampgreen:#06c755;--stampink:#162635}
+.stamp-hero{padding:80px 0 65px;background:radial-gradient(circle at 12% 12%,#dafbe8,transparent 33%),radial-gradient(circle at 90% 60%,#e9e7ff,transparent 38%),#f8fbff}
+.stamp-hero-inner{display:grid;grid-template-columns:1.03fr .97fr;align-items:center;gap:36px}
+.stamp-tag{display:inline-flex;align-items:center;gap:7px;font-weight:900;font-size:14px;border:1px solid #b6efd0;background:#fff;color:#087536;border-radius:999px;padding:7px 14px}
+.stamp-hero h1{margin:18px 0 16px;line-height:1.25;font-size:clamp(36px,5vw,60px);letter-spacing:-.035em}
+.stamp-hero h1 span{color:#087d46}
+.stamp-lead{color:#4b5d6b;font-size:19px;max-width:650px}
+.stamp-tags{display:flex;flex-wrap:wrap;gap:9px;margin:22px 0}
+.stamp-tags span{border:1px solid #dceae3;background:#fff;border-radius:999px;padding:6px 12px;font-size:13px;font-weight:800}
+.stamp-hero-art{background:#fff;border:1px solid #e2ecf0;padding:20px;border-radius:32px;box-shadow:0 22px 50px #19375216;transform:rotate(1deg)}
+.stamp-samples{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:17px}
+.stamp-tile{min-width:0;background:#fff;border:1px solid #e6edf1;border-radius:20px;padding:14px;text-align:center;box-shadow:0 8px 24px #173a8f0a}
+.stamp-illustration{display:grid;place-items:center;aspect-ratio:1;background:linear-gradient(135deg,#f2fdf6,#fff9f0);border-radius:15px;margin-bottom:10px;overflow:hidden}
+.stamp-illustration svg{width:100%;height:auto;max-height:185px;overflow:visible}
+.stamp-tile:nth-child(2) .stamp-illustration,.stamp-tile:nth-child(5) .stamp-illustration{background:linear-gradient(135deg,#fef1fa,#fff8fa)}
+.stamp-tile:nth-child(3) .stamp-illustration,.stamp-tile:nth-child(6) .stamp-illustration{background:linear-gradient(135deg,#f0f5ff,#f7f2ff)}
+.stamp-words{font-weight:900;font-size:18px;line-height:1.35;color:#27364f}
+.stamp-small{font-size:13px;color:#64748b}
+.stamp-prices{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:24px}
+.stamp-price{background:#fff;border:1px solid #d6e8de;border-radius:19px;padding:20px}
+.stamp-price small{display:block;color:#546478;font-weight:800}
+.stamp-price strong{font-size:40px;line-height:1.4;display:block;color:#11693b}
+.stamp-price strong em{font-size:16px;font-style:normal}
+.stamp-price p{font-size:13px;color:#657382;margin:4px 0 0}
+.stamp-btn{background:var(--stampgreen);color:#fff!important;box-shadow:0 12px 22px #06c75533}
+.stamp-section{padding:77px 0}
+.stamp-soft{background:#f7fafb}
+.stamp-eyebrow{font-size:13px;font-weight:900;letter-spacing:.11em;color:#087b40}
+.stamp-title{font-size:clamp(27px,4vw,40px);line-height:1.35;margin:10px 0 15px}
+.stamp-intro{color:#576575;max-width:780px;margin:0 auto 32px}
+.stamp-points{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.stamp-card{padding:25px;border-radius:23px;border:1px solid #e1e8ef;background:#fff;box-shadow:0 12px 27px #17203308}
+.stamp-card h3{font-size:21px;margin:8px 0 10px}
+.stamp-card p{color:#5a6877;margin:0}
+.stamp-flow{display:grid;grid-template-columns:repeat(4,1fr);gap:17px}
+.stamp-step{padding:23px;border:1px solid #e0e8ee;border-radius:20px;background:#fff}
+.stamp-step-num{display:grid;place-items:center;width:42px;height:42px;border-radius:12px;background:#ddfbe7;color:#067939;font-weight:900}
+.stamp-step h3{margin:13px 0 8px;font-size:19px}.stamp-step p{margin:0;color:#5c6877;font-size:15px}
+.stamp-notice{border:1px solid #d9e7e2;background:#f6fcf8;padding:22px 25px;border-radius:20px;color:#405449}
+.stamp-notice strong{color:#14663c}
+.stamp-faq{max-width:880px;margin:auto}.stamp-faq details{padding:17px 20px;border:1px solid #e0e8ee;border-radius:15px;margin:11px 0;background:#fff}
+.stamp-faq summary{cursor:pointer;font-weight:800}.stamp-faq p{margin:10px 0 4px;color:#576576}
+.stamp-cta{background:linear-gradient(135deg,#057d45,#06c755);color:#fff;border-radius:26px;padding:42px}
+.stamp-cta p{color:#ecfff3}.stamp-cta .btn{background:#fff;color:#06723a}
+.stamp-footer{padding:32px 0;background:#132033;color:#dce7f2}.stamp-footer a{color:#dce7f2}
+@media(max-width:850px){.stamp-hero-inner{grid-template-columns:1fr}.stamp-points{grid-template-columns:1fr}.stamp-flow{grid-template-columns:1fr 1fr}.stamp-hero-art{transform:none}.stamp-hero{padding:50px 0}.stamp-section{padding:56px 0}}
+@media(max-width:560px){.stamp-samples{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.stamp-tile{padding:9px;border-radius:13px}.stamp-words{font-size:16px}.stamp-prices{gap:9px}.stamp-price{padding:13px}.stamp-price strong{font-size:32px}.stamp-flow{grid-template-columns:1fr}.stamp-hero h1{font-size:37px}.stamp-cta{padding:26px}.stamp-lead{font-size:17px}}
+</style>
+</head>
+<body>
+<header class="site-header"><div class="container header-inner"><a class="brand" href="index.html" aria-label="アプリ屋ホーム"><img src="assets/logo.svg" alt="アプリ屋"></a><nav class="desktop-nav"><a href="index.html">ホーム</a><a href="#stamp-gallery">作成例</a><a href="#stamp-flow">ご依頼の流れ</a><a href="#stamp-faq">よくある質問</a><a class="nav-cta" href="https://script.google.com/macros/s/AKfycbzKw1YF_1Y9kwqB11ZJahlTh05sjlDb5ZY69nPHFeKKoIG61AQMCusp3B-jxviNwCMT/exec" target="_blank" rel="noopener noreferrer">無料制作を依頼</a></nav><a class="btn btn-primary" style="padding:7px 12px;min-height:42px;font-size:13px" href="index.html">HPへ戻る</a></div></header>
+<main>
+<section class="stamp-hero"><div class="container stamp-hero-inner"><div>
+<div class="stamp-tag">NEW SERVICE ｜ オリジナルLINEスタンプ制作</div>
+<h1>あなたの日常を、<br><span>世界にひとつのスタンプに。</span></h1>
+<p class="stamp-lead">ペット、家族の思い出、オリジナルキャラクターなど。画像や希望のセリフ・画風を専用フォームから送るだけ。AIを使って、あなただけの静止画LINEスタンプを制作します。</p>
+<div class="stamp-tags"><span>✓ 制作依頼0円</span><span>✓ セリフお任せOK</span><span>✓ 無料修正3回まで</span><span>✓ 画像アップロード対応</span></div>
+<div class="actions"><a class="btn stamp-btn" href="https://script.google.com/macros/s/AKfycbzKw1YF_1Y9kwqB11ZJahlTh05sjlDb5ZY69nPHFeKKoIG61AQMCusp3B-jxviNwCMT/exec" target="_blank" rel="noopener noreferrer">無料でLINEスタンプを依頼する ↗</a><a class="btn btn-secondary" href="#stamp-gallery">作成例を見る ↓</a></div>
+<div class="stamp-prices"><div class="stamp-price"><small>制作代行料金</small><strong>0<em> 円</em></strong><p>制作・依頼は無料</p></div><div class="stamp-price"><small>完成後のショップ購入価格</small><strong>190<em> 円</em></strong><p>販売開始後にショップで購入</p></div></div>
+</div>
+<div class="stamp-hero-art"><div class="stamp-samples" aria-label="オリジナルスタンプ作成例イメージ">
+<div class="stamp-tile"><div class="stamp-illustration"><svg viewBox="0 0 180 170" role="img" aria-label="笑顔の犬"><use href="#stamp-dog"/></svg></div><div class="stamp-words">おはよう！</div></div>
+<div class="stamp-tile"><div class="stamp-illustration"><svg viewBox="0 0 180 170" role="img" aria-label="ハートを持つ犬"><use href="#stamp-dog"/><path d="M92 121 C65 105 63 135 91 148 C121 131 117 103 92 121" fill="#f77b99" stroke="#c7456e" stroke-width="3"/></svg></div><div class="stamp-words">ありがとう♡</div></div>
+<div class="stamp-tile"><div class="stamp-illustration"><svg viewBox="0 0 180 170" role="img" aria-label="元気な猫"><use href="#stamp-cat"/></svg></div><div class="stamp-words">了解です！</div></div>
+<div class="stamp-tile"><div class="stamp-illustration"><svg viewBox="0 0 180 170" role="img" aria-label="眠い猫"><use href="#stamp-cat"/><text x="136" y="36" font-size="27" fill="#9b7cc8" font-weight="900">Zzz</text></svg></div><div class="stamp-words">ねむい…</div></div>
+<div class="stamp-tile"><div class="stamp-illustration"><svg viewBox="0 0 180 170" role="img" aria-label="うれしいおにぎり"><use href="#stamp-rice"/><text x="10" y="45" fill="#ffb923" font-size="28">✦</text><text x="146" y="100" fill="#ffb923" font-size="25">✦</text></svg></div><div class="stamp-words">やったー！</div></div>
+<div class="stamp-tile"><div class="stamp-illustration"><svg viewBox="0 0 180 170" role="img" aria-label="おにぎり"><use href="#stamp-rice"/></svg></div><div class="stamp-words">またね！</div></div>
+</div><p class="stamp-small center" style="margin:11px 0 0">※イラストは作成例のイメージで、販売中の商品ではありません。</p></div></div>
+<svg aria-hidden="true" width="0" height="0" style="position:absolute;overflow:hidden"><defs>
+<g id="stamp-dog"><ellipse cx="52" cy="90" rx="28" ry="46" fill="#d6a971" stroke="#835b42" stroke-width="4" transform="rotate(22 52 90)"/><ellipse cx="129" cy="90" rx="28" ry="46" fill="#d6a971" stroke="#835b42" stroke-width="4" transform="rotate(-22 129 90)"/><ellipse cx="91" cy="96" rx="60" ry="57" fill="#fff0cf" stroke="#835b42" stroke-width="4"/><ellipse cx="91" cy="115" rx="35" ry="23" fill="#fff" opacity=".75"/><ellipse cx="70" cy="92" rx="5" ry="7" fill="#594033"/><ellipse cx="112" cy="92" rx="5" ry="7" fill="#594033"/><ellipse cx="91" cy="112" rx="9" ry="7" fill="#594033"/><path d="M91 118q-12 15-24 2m24-2q12 15 24 2" stroke="#594033" stroke-width="4" fill="none" stroke-linecap="round"/><circle cx="57" cy="111" r="10" fill="#ffb0ba" opacity=".6"/><circle cx="124" cy="111" r="10" fill="#ffb0ba" opacity=".6"/></g>
+<g id="stamp-cat"><path d="M39 94 L38 37 Q39 26 53 35 L76 53 Q92 46 110 53 L139 34 Q147 29 149 43 L148 94" fill="#f6ba69" stroke="#9c6944" stroke-width="4"/><ellipse cx="93" cy="105" rx="60" ry="48" fill="#ffd18c" stroke="#9c6944" stroke-width="4"/><path d="M57 65l13 10m46-10l-10 10" stroke="#e8a45e" stroke-width="7" stroke-linecap="round"/><ellipse cx="71" cy="101" rx="5" ry="7" fill="#694b3b"/><ellipse cx="116" cy="101" rx="5" ry="7" fill="#694b3b"/><path d="M85 116l8 5 8-5 M93 121q-8 14-17 3m17-3q8 14 17 3" stroke="#694b3b" stroke-width="3.5" fill="none" stroke-linecap="round"/><path d="M54 120l-25-7m28 17l-25 2m99-12l25-7m-28 17l25 2" stroke="#9c6944" stroke-width="3" stroke-linecap="round"/><circle cx="56" cy="115" r="9" fill="#f69bab" opacity=".6"/><circle cx="129" cy="115" r="9" fill="#f69bab" opacity=".6"/></g>
+<g id="stamp-rice"><path d="M91 25Q101 24 110 40L146 103Q157 126 138 138Q121 150 61 146Q22 146 27 115L69 41Q80 26 91 25Z" fill="#fffdf3" stroke="#6b675f" stroke-width="4"/><rect x="70" y="112" width="47" height="33" rx="4" fill="#355b45"/><path d="M74 103q0-8 9-8m19 8q0-8 9-8" stroke="#595852" stroke-width="4" fill="none" stroke-linecap="round"/><path d="M84 115q8 10 16 0" stroke="#e28379" stroke-width="4" fill="none" stroke-linecap="round"/><circle cx="62" cy="114" r="8" fill="#ffb2b3" opacity=".7"/><circle cx="124" cy="114" r="8" fill="#ffb2b3" opacity=".7"/></g>
+</defs></svg>
+</section>
+<section id="stamp-gallery" class="stamp-section"><div class="container"><div class="center"><div class="stamp-eyebrow">EXAMPLES</div><h2 class="stamp-title">こんなスタンプが作れます</h2><p class="stamp-intro">サンプル画像のように、使いやすい挨拶からちょっと笑える一言まで。好きな雰囲気に合わせて制作します。</p></div><div class="stamp-points">
+<div class="stamp-card"><div style="font-size:40px">🐶</div><h3>ペットのスタンプ</h3><p>愛犬・愛猫などの画像を参考に、かわいい表情やユニークなポーズをイラスト化します。</p></div>
+<div class="stamp-card"><div style="font-size:40px">👨‍👩‍👧</div><h3>家族・友だちのスタンプ</h3><p>共有できる写真を参考に、日常で使う挨拶や内輪ネタなどのセリフをつけます。</p></div>
+<div class="stamp-card"><div style="font-size:40px">🎨</div><h3>オリジナルキャラクター</h3><p>写真がなくても、キャラクターの特徴や希望する画風からイメージを制作します。</p></div>
+</div></div></section>
+<section id="stamp-flow" class="stamp-section stamp-soft"><div class="container"><div class="center"><div class="stamp-eyebrow">HOW IT WORKS</div><h2 class="stamp-title">依頼から購入までの流れ</h2><p class="stamp-intro">制作費はかかりません。完成後はアプリ屋側の作者アカウントからLINEスタンプショップに出品し、購入していただく仕組みです。</p></div>
+<div class="stamp-flow">
+<div class="stamp-step"><div class="stamp-step-num">01</div><h3>専用フォームから依頼</h3><p>作りたい内容、画像、スタンプ数、希望のセリフ、画風などを入力。セリフはお任せもできます。</p></div>
+<div class="stamp-step"><div class="stamp-step-num">02</div><h3>AIで制作・確認</h3><p>AIを使用して静止画スタンプを制作します。完成案の修正は3回まで無料です。</p></div>
+<div class="stamp-step"><div class="stamp-step-num">03</div><h3>作者アカウントで販売</h3><p>アプリ屋側の作者アカウントからLINEへ申請。審査に通過すると販売が始まります。</p></div>
+<div class="stamp-step"><div class="stamp-step-num">04</div><h3>ショップで190円で購入</h3><p>販売開始後、依頼者ご自身でLINEスタンプショップから190円で購入していただきます。</p></div>
+</div><div class="stamp-notice" style="margin-top:23px"><strong>公開停止にも対応：</strong>購入後、ご希望がある場合は販売の公開停止を受け付けます。停止の反映は販売プラットフォーム側の仕様に従います。</div></div></section>
+<section class="stamp-section"><div class="container"><div class="center"><div class="stamp-eyebrow">PLEASE READ</div><h2 class="stamp-title">お申し込み前にご確認ください</h2></div><div class="stamp-points">
+<div class="stamp-card"><h3>制作はすべてAIを使用</h3><p>イラスト・セリフなどの制作にAIを利用します。制作対象は静止画のスタンプです。アニメーションスタンプには対応していません。</p></div>
+<div class="stamp-card"><h3>第三者の権利を尊重</h3><p>著作権・商標権・肖像権などを侵害する画像やキャラクターは受け付けられません。画像を提供する方は、利用に必要な許可をご確認ください。</p></div>
+<div class="stamp-card"><h3>公開にはLINEの審査が必要</h3><p>審査基準により修正や不承認となる場合があります。販売開始日をお約束するものではありません。</p></div>
+</div></div></section>
+<section id="stamp-faq" class="stamp-section stamp-soft"><div class="container"><div class="center"><div class="stamp-eyebrow">FAQ</div><h2 class="stamp-title">よくある質問</h2></div><div class="stamp-faq">
+<details><summary>依頼するだけで料金はかかりますか？</summary><p>いいえ。制作代行料金は無料です。完成後、販売が始まったLINEスタンプをご購入いただく際に190円かかります。</p></details>
+<details><summary>スタンプのセリフは自分で決める必要がありますか？</summary><p>ご指定いただいても、すべてお任せでも大丈夫です。専用フォームから希望を送れます。</p></details>
+<details><summary>自分のアカウントから販売されるのですか？</summary><p>いいえ。スタンプはアプリ屋側の作者アカウントから申請・販売します。依頼者は販売開始後にショップから購入していただきます。</p></details>
+<details><summary>修正は何回まで無料ですか？</summary><p>完成案の修正は3回まで無料で対応します。大幅な内容変更については別途ご相談となる場合があります。</p></details>
+<details><summary>購入した後に非公開にできますか？</summary><p>購入後にご連絡いただければ、販売の公開停止を受け付けます。ただし、ショップへの反映までには時間がかかる場合があります。</p></details>
+</div></div></section>
+<section class="stamp-section"><div class="container"><div class="stamp-cta center"><h2 class="stamp-title" style="color:#fff">お気に入りの一枚を、LINEで使おう。</h2><p>まずは無料の専用フォームから、作りたいイメージを教えてください。</p><div class="actions" style="justify-content:center"><a class="btn" href="https://script.google.com/macros/s/AKfycbzKw1YF_1Y9kwqB11ZJahlTh05sjlDb5ZY69nPHFeKKoIG61AQMCusp3B-jxviNwCMT/exec" target="_blank" rel="noopener noreferrer">無料制作を申し込む ↗</a></div></div></div></section>
+</main>
+<footer class="stamp-footer"><div class="container center"><p>© 2026 アプリ屋 ｜ <a href="index.html">公式HP</a> ｜ <a href="terms.html">利用規約</a> ｜ <a href="privacy.html">プライバシーポリシー</a></p><p style="font-size:13px">本サービスはLINEヤフー株式会社の公式サービスではありません。</p></div></footer>
+</body></html>
